@@ -7,39 +7,116 @@
 
     <link rel="stylesheet" href="style/main.css" />
 
+    <!--Responsiveness-->
+
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--Owl css-->
+
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    
     <title>Netflix clone</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1 class="logo">NETFLIX</h1>
-        <nav>
-          <a href="#"> <b>Inicio</b> </a>
-          <a href="#">Séries</a>
-          <a href="">Filmes</a>
-          <a href="">Documentários</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <div class="filme-principal">
+    <container>
+      <header>
         <div class="container">
-          <h2 class="titulo">My Hero Academia: O Filme</h2>
-          <p class="descricao">
-            Deku e All Might são convidados para a I-Expo, a maior exposição de
-            invenções e novidades para heróis superpoderosos, reunindo
-            patrocinadores e profissionais do mundo todo. Quando a exposição é
-            invadida por vilões, burlando todo o poderoso sistema de segurança
-            do local, a sociedade de heróis fica gravemente ameaçada. Só uma
-            pessoa é capaz de salvar a todos e restaurar a paz: All Might.
-          </p>
-          <div class="butoes">
-            <button role="button" class="botao1">Assistir</button>
-            <button role="button" class="botao2">Mais Informações</button>
+          <h1 class="logo">NIMEFLIX</h1>
+          <nav>   
+              <a href="#"> <b>Inicio</b> </a>
+              <a href="#">Séries</a>
+              <a href="">Filmes</a>
+              <a href="">Documentários</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="filme-principal">
+          <div class="container">
+            <h2 class="titulo">My Hero Academia: O Filme</h2>
+            <p class="descricao">
+              Deku e All Might são convidados para a I-Expo, a maior exposição
+              de invenções e novidades para heróis superpoderosos, reunindo
+              patrocinadores e profissionais do mundo todo. Quando a exposição é
+              invadida por vilões, burlando todo o poderoso sistema de segurança
+              do local, a sociedade de heróis fica gravemente ameaçada. Só uma
+              pessoa é capaz de salvar a todos e restaurar a paz: All Might.
+            </p>
+            <div class="butoes">
+              <button role="button" class="botao1">
+                <i class="fas fa-play"></i>
+                Assistir
+              </button>
+              <button role="button" class="botao2">
+                <i class="fas fa-info-circle"></i>
+                Mais Informações
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </container>
+
+    <div class="carrosel-filmes">
+      <h3>Continue assistindo</h3>
+      <div class="owl-carousel owl-theme">
+        <img class="box-filme" src="img/carousel/a-viagem-de-chihiro.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/bleach.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/demon-slayer.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/food-wars.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/one-punch.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/sangatsu-no-lion.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/the-irregular.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/sword-art-online.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/seven-deadly-sins.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/fora de orbita.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/dorohedoro.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/edens-zero.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/" alt="" class="item">
+    </div>
+
+    <div class="carrosel-filmes">
+      <h3>Animes populares na Nimeflix</h3>
+      <div class="owl-carousel owl-theme">
+        <img class="box-filme" src="img/carousel/a-viagem-de-chihiro.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/bleach.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/demon-slayer.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/food-wars.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/one-punch.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/sangatsu-no-lion.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/the-irregular.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/sword-art-online.webp" alt="" class="item">
+        <img class="box-filme" src="img/carousel/seven-deadly-sins.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/fora de orbita.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/dorohedoro.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/edens-zero.jpg" alt="" class="item">
+        <img class="box-filme" src="img/carousel/" alt="" class="item">
+    </div>
+
+    <div class="carrosel-filmes">
+      <h3>Em alta na Nimeflix</h3>
+      <div class="owl-carousel owl-theme">
+        <img class="box-filme" src="img/carousel/" alt="" class="item">
+    </div>
+
+    <div class="carrosel-filmes">
+      <h3>Animes de drama</h3>
+      <div class="owl-carousel owl-theme">
+        <img class="box-filme" src="img/carousel/" alt="" class="item">
+    </div>
+    </div>
+  
+  
+  
+    <script src="https://kit.fontawesome.com/306db039ee.js" crossorigin="anonymous"></script>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+  
   </body>
+
 </html>

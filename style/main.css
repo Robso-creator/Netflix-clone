@@ -7,15 +7,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  
 }
 
 body {
   background: var(--preto);
   font-family: "Arial", Times, serif;
   color: white;
-  
+}
+
+container {
+  background: linear-gradient(360deg, rgb(24, 24, 24), rgba(0, 0, 0, 0.2) 100%),
+    url("/img/boku-no-hero.jpg");
+
+  height: 450px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0));
 }
 
 header .container {
@@ -23,24 +36,30 @@ header .container {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  }
+}
 
 header .logo {
   margin-left: 6px;
   color: var(--vermelho);
   font-family: "Arial Black", Times;
   font-size: 40px;
+}
+header nav {
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+}
 
-  padding-left: 10px;
-}
-header nav{
-    margin-right: 20px;
-}
 header nav a {
   text-decoration: none;
   color: #aaa;
   margin-right: 10px;
+}
 
+header nav a b {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
 }
 
 header nav a:hover {
@@ -49,13 +68,13 @@ header nav a:hover {
 
 /*Filme principal*/
 
-.filme-principal {
-  font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("/img/boku-no-hero.jpg");
+.container {
+  padding-left: 10px;
+}
 
-  height: 400px;
-  background-size: cover;
+.filme-principal {
+  margin-top: 5%;
+  font-size: 16px;
 
   display: flex;
   flex-direction: column;
@@ -65,38 +84,62 @@ header nav a:hover {
   padding-left: 10px;
 }
 
-.filme-principal .descricao{
-    margin-bottom: 40px;
-    width: 405px;
-    text-align: justify;
+.filme-principal .descricao {
+  margin-bottom: 6%;
+  width: 405px;
+  text-align: justify;
 }
 
-.titulo{
-    font-size: 40px;
-    margin-bottom: 10px;
+.titulo {
+  font-size: 40px;
+  margin-bottom: 4%;
 }
 
-
-.botao1, .botao2{
-    border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    margin-right: 10px;
+.botao1,
+.botao2 {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-right: 10px;
 }
 
-.botao1{
-    font-weight: bold;
+.botao1 i,
+.botao2 i {
+  padding-right: 6px;
 }
 
-.botao1:hover{
-    background-color: rgba(255, 255, 255, 0.733);
+.botao1:hover {
+  background-color: rgba(255, 255, 255, 0.733);
 }
 
-.botao2{
-    color: white;
-    background-color: rgba(128, 128, 128, 0.568);
+.botao2 {
+  color: white;
+  background-color: rgba(85, 85, 85, 0.705);
 }
 
-.botao2:hover{
-    background-color: rgba(128, 128, 128, 0.438);
+.botao2:hover {
+  background-color: rgba(85, 85, 85, 0.438);
+}
+
+.botao1:hover,
+.botao2:hover {
+  transition: 0.3s ease all;
+}
+
+.box-filme {
+  height: 50%;
+  width: 100%;
+  display: block;
+  background: contain;
+}
+
+.carrosel-filme{
+  margin-top: 5%;
+}
+
+.carrosel-filmes h3{
+  font-size: 20px;
+  padding: 10px;
 }
