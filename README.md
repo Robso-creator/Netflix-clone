@@ -10,5 +10,3 @@ Project proposed during TakeBlip's bootcamp at [Digital Innovation One](https://
 
 ![Interface](img/NIMEFLIX.PNG)
 
-
-[Digital Innovation One](https://www.dio.me/sign-in)
