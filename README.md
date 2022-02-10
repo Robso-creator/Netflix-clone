@@ -9,3 +9,6 @@ Project proposed during TakeBlip's bootcamp at [Digital Innovation One](https://
 <h2>🚀</h2> 
 
 ![Interface](img/NIMEFLIX.PNG)
+
+
+[Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
