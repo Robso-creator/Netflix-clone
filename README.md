@@ -11,4 +11,4 @@ Project proposed during TakeBlip's bootcamp at [Digital Innovation One](https://
 ![Interface](img/NIMEFLIX.PNG)
 
 
-[Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+[Digital Innovation One](https://www.dio.me/sign-in)
